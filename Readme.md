@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Артём Василевский](https://up.htmlacademy.ru/htmlcss-individual/3/user/849413).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Антипина](https://htmlacademy.ru/profile/id2108789).
+* Сайт [Мой проект Sedona](https://pvolab.github.io/849413-sedona-3/).
 
 ---
 
