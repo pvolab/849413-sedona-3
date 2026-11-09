@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="utf-8">
     <title>Гостиницы Седоны</title>
     <link rel="stylesheet" href="css/styles.css">
   </head>
+
   <body>
     <div class="page-container">
     <header class="page-header">
-      <a class="logo" href="index.html">
-        <img class="logo" src="img/logo-sedona.svg" alt="Логотип города Седона">
-      </a>
       <nav class="navigation">
+          <a class="logo" href="index.html">
+            <img class="logo" src="img/logo-sedona.svg" alt="Логотип города Седона">
+          </a>
         <ul class="navigation-list">
           <li class="navigation-item">
             <a href="index.html" class="navigation-link">Главная</a>
@@ -36,7 +38,7 @@
           </a>
         </li>
         <li class="navigation-item">
-          <a href="#" class="navigation-user-link">Хочу сюда!</a>
+          <a href="#" class="navigation-user-link button small-button button-prime">Хочу сюда!</a>
         </li>
       </ul>
     </nav>
@@ -138,65 +140,77 @@
           <span class="visually-hidden">Показать список</span>
         </a>
         </div>
+
         <ul class="hotels-list">
           <li class="hotels-item">
-            <img class="hotels-item-image" src="img/hotels/Amara-Resort-&-Spa.jpg" alt="Вид из Amara Resort & Spa" width="300" height="212">
-            <h3 class="hotels-item-title">Amara Resort & Spa</h3>
-          <span class="hotels-item-type">Гостиница</span>
-          <span class="hotels-item-type">От 4000 ₽</span>
-          <a class="button small-button hotels-item-link button-prime" href="#">Подробнее</a>
-          <a class="button small-button hotels-item-link button-second" href="#">В избранное</a>
-          <div class="hotels-item-rating">
-            <span class="hotels-item-star"></span>
-            <span class="hotels-item-star"></span>
-            <span class="hotels-item-star"></span>
-            <span class="hotels-item-star"></span>
-          </div>
-          <span class="hotels-item-rating">Рейтинг: 8,5</span>
+            <a class="hotels-item-link hotels-image-link" href="#">
+              <img class="hotels-item-image" src="img/hotels/Amara-Resort-&-Spa.jpg" alt="Вид из Amara Resort & Spa" width="300" height="212">
+            </a>
+            <a class="hotels-item-link hotels-title-link" href="#">
+              <h3 class="hotels-item-title">Amara Resort & Spa</h3>
+            </a>
+          <p class="hotels-item-type">Гостиница</p>
+          <p class="hotels-item-price">От 4000 ₽</p>
+          <a class="button small-button hotels-item-button button-prime" href="#">Подробнее</a>
+          <button class="button small-button hotels-item-favorite button-second" type="button">В избранное</button>
+          <p class="hotels-item-rating stars-four">
+            <span class="visually-hidden">4 звезды</span>
+          </p>
+          <p class="hotels-item-score">Рейтинг: 8,5</p>
           </li>
+
           <li class="hotels-item">
-            <img class="hotels-item-image" src="img/hotels/Villas-at-Poco-Diablo.jpg" alt="Вид из Villas at Poco Diablo" width="300" height="212">
-            <h3 class="hotels-item-title">Villas at Poco Diablo</h3>
-          <span class="hotels-item-type">Гостиница</span>
-          <span class="hotels-item-type">От 5000 ₽</span>
-          <a class="button small-button hotels-item-link button-prime" href="#">Подробнее</a>
-          <a class="button small-button hotels-item-link button-second-hover" href="#">В избранном</a>
-          <div class="hotels-item-rating">
-            <span class="hotels-item-star"></span>
-            <span class="hotels-item-star"></span>
-            <span class="hotels-item-star"></span>
-            <span class="hotels-item-star"></span>
-          </div>
-          <span class="hotels-item-rating">Рейтинг: 9,2</span>
+            <a class="hotels-item-link hotels-image-link" href="#">
+              <img class="hotels-item-image" src="img/hotels/Villas-at-Poco-Diablo.jpg" alt="Вид из Villas at Poco Diablo" width="300" height="212">
+            </a>
+            <a class="hotels-item-link hotels-title-link" href="#">
+              <h3 class="hotels-item-title">Villas at Poco Diablo</h3>
+            </a>
+          <p class="hotels-item-type">Гостиница</p>
+          <p class="hotels-item-price">От 5000 ₽</p>
+          <a class="button small-button hotels-item-button button-prime" href="#">Подробнее</a>
+          <button class="button small-button hotels-item-favorite button-second" type="button">В избранном</button>
+          <p class="hotels-item-rating stars-four">
+            <span class="visually-hidden">4 звезды</span>
+          </p>
+          <p class="hotels-item-score">Рейтинг: 9,2</p>
           </li>
+
           <li class="hotels-item">
-            <img class="hotels-item-image" src="img/hotels/Desert-Quail-Inn.jpg" alt="Вид из Desert Quail Inn" width="300" height="212">
-            <h3 class="hotels-item-title">Desert Quail Inn</h3>
-          <span class="hotels-item-type">Гостиница</span>
-          <span class="hotels-item-type">От 2500 ₽</span>
-          <a class="button small-button hotels-item-link button-prime" href="#">Подробнее</a>
-          <a class="button small-button hotels-item-link button-second" href="#">В избранное</a>
-          <div class="hotels-item-rating">
-            <span class="hotels-item-star"></span>
-            <span class="hotels-item-star"></span>
-            <span class="hotels-item-star"></span>
-          </div>
-          <span class="hotels-item-rating">Рейтинг: 6,9</span>
+            <a class="hotels-item-link hotels-image-link" href="#">
+              <img class="hotels-item-image" src="img/hotels/Desert-Quail-Inn.jpg" alt="Вид из Desert Quail Inn" width="300" height="212">
+            </a>
+            <a class="hotels-item-link hotels-title-link" href="#">
+              <h3 class="hotels-item-title">Desert Quail Inn</h3>
+            </a>
+          <p class="hotels-item-type">Гостиница</p>
+          <p class="hotels-item-price">От 2500 ₽</p>
+          <a class="button small-button hotels-item-button button-prime" href="#">Подробнее</a>
+          <button class="button small-button hotels-item-favorite button-second" type="button">В избранное</button>
+          <p class="hotels-item-rating stars-three">
+            <span class="visually-hidden">3 звезды</span>
+          </p>
+          <p class="hotels-item-score">Рейтинг: 6,9</p>
           </li>
+
           <li class="hotels-item">
-            <img class="hotels-item-image" src="img/hotels/GreenTree-Inn.jpg" alt="Вид из GreenTree Inn" width="300" height="212">
-            <h3 class="hotels-item-title">GreenTree Inn</h3>
-          <span class="hotels-item-type">Гостиница</span>
-          <span class="hotels-item-type">От 1500 ₽</span>
-          <a class="button small-button hotels-item-link button-prime" href="#">Подробнее</a>
-          <a class="button small-button hotels-item-link button-second" href="#">В избранное</a>
-          <div class="hotels-item-rating">
-            <span class="hotels-item-star"></span>
-            <span class="hotels-item-star"></span>
-          </div>
-          <span class="hotels-item-rating">Рейтинг: 5,0</span>
+            <a class="hotels-item-link hotels-image-link" href="#">
+              <img class="hotels-item-image" src="img/hotels/GreenTree-Inn.jpg" alt="Вид из GreenTree Inn" width="300" height="212">
+            </a>
+            <a class="hotels-item-link hotels-title-link" href="#">
+              <h3 class="hotels-item-title">GreenTree Inn</h3>
+            </a>
+          <p class="hotels-item-type">Гостиница</p>
+          <p class="hotels-item-price">От 1500 ₽</p>
+          <a class="button small-button hotels-item-button button-prime" href="#">Подробнее</a>
+          <button class="button small-button hotels-item-favorite button-second" type="button">В избранное</button>
+          <p class="hotels-item-rating stars-two">
+            <span class="visually-hidden">2 звезды</span>
+          </p>
+          <p class="hotels-item-score">Рейтинг: 5,0</p>
           </li>
         </ul>
+
         <ul class="pagination">
           <li class="pagination-item">
             <a href="#" class="pagination-item-link big-button" aria-current="page">1</a>
